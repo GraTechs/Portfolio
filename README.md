@@ -1,8 +1,8 @@
-# Gratechs-Portfolio
+# Portfolio
 This a Portfolio I created with, React | EmailJS.
 >>>>>>> 13af5cba2cca9b27b67e3e9019de801b16f89825
 =======
-# Gratechs-Portfolio - My Local Additions
+# Portfolio - My Local Additions
 
 Welcome to my amazing project.
 This is the combined README content, integrating both local and remote information.
