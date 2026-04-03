@@ -7,24 +7,20 @@ export const LoadingScreen = ({ onComplete }) => {
     const fullText = "Loading";
 
     useEffect(() => {
-        let index = 0;
-        const interval = setInterval(() => {
-            setText(fullText.substring(0, index))
-            index++;
-
-            if (index > fullText.length) {
-                clearInterval(interval)
-            };
-            setTimeout(() => {
-                onComplete();
-            },
-            2000);
-
-        }, 100);
-
-        return () => clearInterval(interval);
-
-    },[onComplete]);
+      let index = 0;
+    
+      const interval = setInterval(() => {
+        setText(fullText.substring(0, index));
+        index++;
+    
+        if (index > fullText.length) {
+          clearInterval(interval);
+          setTimeout(onComplete, 500); // call once
+        }
+      }, 100);
+    
+      return () => clearInterval(interval);
+    }, [onComplete]);
 
 
 
