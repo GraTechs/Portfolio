@@ -40,7 +40,7 @@ export const Contact = () => {
               placeholder="Your Message..."
             />
           </div>
-          <button type="sumit" className="w-full bg-blue-500 py-3 px-6 text-white rounded font-medium hover:-translate-y-0.5 hover:shadow-[0_0_15px_rgba(59,130,246,0.4)] transition">Send Message</button>
+          <button type="submit" className="w-full bg-blue-500 py-3 px-6 text-white rounded font-medium hover:-translate-y-0.5 hover:shadow-[0_0_15px_rgba(59,130,246,0.4)] transition">Send Message</button>
         </form>
       </div>
       {/* </RevealOnScroll> */}
